@@ -11,8 +11,7 @@ public class StreamTest {
     ar.add("ball");
     ar.add("chennai");
     ar.add("delhi");
-    ar.add("EC");
-    ar.add("EC");
+    ar.add("ECS");
     Set st5 = new HashSet();
     st5.addAll(ar);
     System.out.println("111111"+st5);
