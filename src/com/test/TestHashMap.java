@@ -18,7 +18,7 @@ public class TestHashMap {
         while(mt.hasNext()){
             System.out.println(mt.next());
         }
-        for(Object entry : mp.keySet()){
+        for(Object entry : mp.entrySet()){
             System.out.println(entry);
 
         }
@@ -26,5 +26,6 @@ public class TestHashMap {
 
         mp.entrySet().stream().forEach(s-> System.out.println(s));
         mp.values().stream().forEach(s->System.out.println(s));
+        mp.keySet().stream().forEach(s->System.out.println(s));
     }
 }
